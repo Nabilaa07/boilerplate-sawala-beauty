@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Slider from './Slider'
+import SLiderHome from './Slider'
 import NavItem from './NavItem'
 import NavItemMd from './NavItemMd'
 
@@ -39,7 +39,7 @@ export default function Hero() {
           <NavItemMd>Serum</NavItemMd>
         </ul>
       </div>
-      <Slider />
+      <SLiderHome />
     </section>
   )
 }

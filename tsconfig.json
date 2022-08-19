@@ -53,10 +53,10 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "src/components/Slider.js",
+    "src/components/Slider.tsx",
     "src/components/slick.js",
     "src/components/ImageSlider.js",
     "src/components/ImageSlider.js",
-    "src/components/People.js"
+    "src/components/People.tsx"
   ]
 }
