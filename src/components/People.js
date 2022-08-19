@@ -22,7 +22,7 @@ export default class VerticalSwipeToSlide extends Component {
     return (
       <div>
         <Slider {...settings}>
-          <div className="w-full px-6 mx-auto lg:-ml-6 mb-6 md:mx-0">
+          <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
             <div className="flex w-full space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
               <Image src="/assets/s1.png" alt="" className="flex" width={120} height={120} />
               <p className="pl-5 my-10 font-medium uppercase">
@@ -32,7 +32,7 @@ export default class VerticalSwipeToSlide extends Component {
             </div>
           </div>
 
-          <div className="w-full px-6 mx-auto lg:-ml-6  mb-6  md:mx-0">
+          <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
             <div className="flex w-full space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
               <Image src="/assets/s2.png" alt="" className="flex" width={120} height={120} />
               <p className="pl-5 my-10 font-medium uppercase">
@@ -42,7 +42,7 @@ export default class VerticalSwipeToSlide extends Component {
             </div>
           </div>
 
-          <div className="w-full px-6 mx-auto lg:-ml-6 md:mx-0  mb-6 ">
+          <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
             <div className="flex w-full Space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
               <Image src="/assets/s3.png" alt="" className="flex" width={120} height={120} />
               <p className="pl-5 my-10 font-medium uppercase">
@@ -52,7 +52,7 @@ export default class VerticalSwipeToSlide extends Component {
             </div>
           </div>
 
-          <div className="w-full px-6 mx-auto lg:-ml-6 mb-6 md:mx-0">
+          <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
             <div className="flex w-full space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
               <Image src="/assets/s1.png" alt="" className="flex" width={120} height={120} />
               <p className="pl-5 my-10 font-medium uppercase">
@@ -62,7 +62,7 @@ export default class VerticalSwipeToSlide extends Component {
             </div>
           </div>
 
-          <div className="w-full px-6 mx-auto lg:-ml-6 md:mx-0  mb-6 ">
+          <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
             <div className="flex w-full Space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
               <Image src="/assets/s2.png" alt="" className="flex" width={120} height={120} />
               <p className="pl-5 my-10 font-medium uppercase">
@@ -72,7 +72,7 @@ export default class VerticalSwipeToSlide extends Component {
             </div>
           </div>
 
-          <div className="w-full px-6 mx-auto lg:-ml-6 md:mx-0  mb-6 ">
+          <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
             <div className="flex w-full space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
               <Image src="/assets/s3.png" alt="" className="flex" width={120} height={120} />
               <p className="pl-5 my-10 font-medium uppercase">

@@ -24,7 +24,7 @@ export default class SimpleSlider extends Component {
             <Button children={'SHOP NOW'} />
           </div>
           <div className="max-w-full py-24 bg-center bg-no-repeat rec-1">
-            <div className="text-5xl font-bold text-center uppercase text-white">
+            <div className="text-5xl font-bold text-center text-white uppercase">
               <p>30% OFF</p>
               <p>For All Product</p>
               <p>Serum</p>

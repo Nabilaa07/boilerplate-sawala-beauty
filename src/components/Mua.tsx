@@ -40,7 +40,7 @@ export default function Mua() {
             </div>
           </div>
 
-          <div className="w-full px-6 mx-auto  md:-ml-20 md:mx-0">
+          <div className="w-full px-6 mx-auto md:-ml-20 md:mx-0">
             <People />
             <div className="flex w-20 col-span-4 gap-4 mb-24">
               <Image src="/assets/panah-kiri.png" alt="" className="w-full" width={170} height={70} />
