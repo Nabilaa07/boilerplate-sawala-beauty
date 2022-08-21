@@ -9,7 +9,7 @@ export default function Hero() {
       <nav className="flex items-center justify-between mx-4 md:mx-16">
         <button className="nav-toggle w-5 h-3.5 md:mt-9 block hover:bg-gray-200 group mt-8">
           <Image src="/assets/Icon-mn.svg" alt="" width={20} height={14} />
-          <div className="absolute w-8/12 pb-10 transition-all duration-300 bg-white bg-opacity-75 border opacity-0 rounded-xl -right-full md:hidden group-focus:right-0 group-focus:opacity-100 -left-2">
+          <div className="absolute w-8/12 pb-10 transition-all duration-300 bg-white bg-opacity-75 border opacity-0 navbarsm rounded-xl -right-full md:hidden group-focus:right-0 group-focus:opacity-100 -left-2">
             <ul className="flex flex-col items-center w-full pt-10 text-base cursor-pointer">
               <NavItem>Shop</NavItem>
               <NavItem>Best Seller</NavItem>
@@ -39,7 +39,7 @@ export default function Hero() {
           <NavItemMd>Serum</NavItemMd>
         </ul>
       </div>
-      <div className="hero">
+      <div className="relative hero">
         <SLiderHome /> <br /> <br />
       </div>
     </section>

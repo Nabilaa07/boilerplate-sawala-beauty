@@ -7,4 +7,8 @@
 }
 .hero {
   overflow-x: hidden;
+  z-index: 1;
+}
+.navbarsm {
+  z-index: 2;
 }
