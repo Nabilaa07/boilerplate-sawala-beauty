@@ -182,7 +182,7 @@ export const SLiderHome = () => {
         </Slider>
       </WrapperSlider>
       <div tw="w-full flex space-x-3">
-        <div className="flex w-20 col-span-4 gap-4 mt-3 mb-24 ml-5">
+        <div className="flex w-20 col-span-4 gap-4 mt-3 mb-24">
           <button className="button" onClick={() => gotoPrev()}>
             <Image src="/assets/panah-kiri.png" alt="" className="w-full" width={170} height={70} />
           </button>
