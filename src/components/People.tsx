@@ -127,9 +127,14 @@ export const SLiderHome = () => {
   const setting: Settings = {
     infinite: true,
     slidesToShow: 1,
-    speed: 500,
-    rows: 3,
-    slidesPerRow: 1
+    slidesToScroll: 1,
+    vertical: true,
+    swipeToSlide: true,
+    rows: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 5000,
+    cssEase: 'linear'
   }
   const sliderRef = useRef<any>(null)
   const gotoNext = () => {
@@ -142,14 +147,32 @@ export const SLiderHome = () => {
     <Fragment>
       <WrapperSlider>
         <Slider {...setting} ref={sliderRef}>
-          {[...Array(10)].map(() => (
-            <div className="w-full h-32" key={Math.random()}>
-              <div className="w-full mx-auto mb-6 md:mx-0 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
-                <div className="flex w-full space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-96">
+          {[...Array(3)].map(() => (
+            <div className="md:px-5" key={Math.random()}>
+              <div className="mb-6 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
+                <div className="flex space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-80">
                   <Image src="/assets/s1.png" alt="" className="flex" width={120} height={120} />
                   <p className="pl-5 my-10 font-medium uppercase">
                     Lindsey Philips <br />
                     <span className="capitalize text-sm font-normal text-[#666666] pr-4">Aktris, Singger</span>
+                  </p>
+                </div>
+              </div>
+              <div className="mb-6 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
+                <div className="flex space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-80">
+                  <Image src="/assets/s2.png" alt="" className="flex" width={120} height={120} />
+                  <p className="pl-5 my-10 font-medium uppercase">
+                    Alena Botosh <br />
+                    <span className="capitalize text-sm font-normal text-[#666666] pr-4">Singger, Celebgram</span>
+                  </p>
+                </div>
+              </div>
+              <div className="mb-6 focus:outline-none focus:ring-1 focus:ring-[#B48166]">
+                <div className="flex space-x-3 overflow-hidden hover:outline hover:outline-1 hover:outline-[#B48166] md:w-80">
+                  <Image src="/assets/s3.png" alt="" className="flex" width={120} height={120} />
+                  <p className="pl-5 my-10 font-medium uppercase">
+                    Giana Torff <br />
+                    <span className="capitalize text-sm font-normal text-[#666666] pr-4">Singer songwriter</span>
                   </p>
                 </div>
               </div>
@@ -158,7 +181,7 @@ export const SLiderHome = () => {
         </Slider>
       </WrapperSlider>
       <div tw="w-full flex space-x-3">
-        <div className="flex w-20 col-span-4 gap-4 mt-3 mb-24">
+        <div className="flex w-20 col-span-4 gap-4 mt-3 mb-24 ml-5">
           <button className="button" onClick={() => gotoPrev()}>
             <Image src="/assets/panah-kiri.png" alt="" className="w-full" width={170} height={70} />
           </button>
