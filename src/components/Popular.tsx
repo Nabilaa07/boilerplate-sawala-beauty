@@ -50,7 +50,7 @@ export default function Popular() {
       </div>
       <div className="flex flex-wrap mx-5 md:mx-11">
         {data?.map((item, i) => (
-          <div className="w-full md:px-4 md:w-1/2 xl:w-1/3">
+          <div className="w-full p-2 md:px-4 md:w-1/2 xl:w-1/3">
             <div
               className={`items-center hover:outline hover:outline-offset-0 hover:outline-[#B48166] mb-10 shadow-lg hover:mb-10 hover:pb-0 hover:shadow-none md:hover:shadow-lg md:shadow-none ${item.image}`}
               key={i}>

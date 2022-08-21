@@ -39,7 +39,9 @@ export default function Hero() {
           <NavItemMd>Serum</NavItemMd>
         </ul>
       </div>
-      <SLiderHome />
+      <div className="hero">
+        <SLiderHome /> <br /> <br />
+      </div>
     </section>
   )
 }
