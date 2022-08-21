@@ -9,6 +9,8 @@ import Footer from '../components/Footer'
 const LandingPage: React.FC = () => {
   return (
     <>
+      <title>Sawala Elements Beauty</title>
+
       <Hero />
 
       <Most />
