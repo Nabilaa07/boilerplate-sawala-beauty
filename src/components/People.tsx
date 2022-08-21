@@ -133,6 +133,7 @@ export const SLiderHome = () => {
     rows: 1,
     autoplay: true,
     speed: 2000,
+    verticalSwiping: true,
     autoplaySpeed: 5000,
     cssEase: 'linear'
   }
@@ -154,7 +155,7 @@ export const SLiderHome = () => {
                   <Image src="/assets/s1.png" alt="" className="flex" width={120} height={120} />
                   <p className="pl-5 my-10 font-medium uppercase">
                     Lindsey Philips <br />
-                    <span className="capitalize text-sm font-normal text-[#666666] pr-4">Aktris, Singger</span>
+                    <span className="capitalize text-sm font-normal text-[#666666]">Aktris, Singger</span>
                   </p>
                 </div>
               </div>
@@ -163,7 +164,7 @@ export const SLiderHome = () => {
                   <Image src="/assets/s2.png" alt="" className="flex" width={120} height={120} />
                   <p className="pl-5 my-10 font-medium uppercase">
                     Alena Botosh <br />
-                    <span className="capitalize text-sm font-normal text-[#666666] pr-4">Singger, Celebgram</span>
+                    <span className="capitalize text-sm font-normal text-[#666666]">Singger, Celebgram</span>
                   </p>
                 </div>
               </div>
@@ -172,7 +173,7 @@ export const SLiderHome = () => {
                   <Image src="/assets/s3.png" alt="" className="flex" width={120} height={120} />
                   <p className="pl-5 my-10 font-medium uppercase">
                     Giana Torff <br />
-                    <span className="capitalize text-sm font-normal text-[#666666] pr-4">Singer songwriter</span>
+                    <span className="capitalize text-sm font-normal text-[#666666]">Singer songwriter</span>
                   </p>
                 </div>
               </div>
